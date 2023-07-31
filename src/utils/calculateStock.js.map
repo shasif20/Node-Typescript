@@ -1,0 +1,1 @@
+{"version":3,"file":"calculateStock.js","sourceRoot":"","sources":["calculateStock.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;AAEb,MAAM,CAAC,OAAO,GAAG,UAAU,WAAwB,EAAE,UAAkB;IACnE,IAAI,WAAW,CAAC,IAAI,KAAK,OAAO,EAAE;QAC9B,OAAO,UAAU,GAAG,WAAW,CAAC,GAAG,CAAC;KACvC;IACD,OAAO,UAAU,GAAG,WAAW,CAAC,GAAG,CAAC;AACxC,CAAC,CAAA"}
