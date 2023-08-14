@@ -1,4 +1,4 @@
-const getStockLevel = require('./utils/getStockLevel');
+const getStockLevel = require('./services/getStockLevel');
 
 (async () => {
     try {

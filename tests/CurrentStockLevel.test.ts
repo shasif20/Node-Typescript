@@ -1,6 +1,6 @@
 import "jest";
-const calculateStock = require('../src/utils/calculateStock');
-const getStockLevel = require('../src/utils/getStockLevel');
+const calculateStock = require('../src/services/calculateStock');
+const getStockLevel = require('../src/services/getStockLevel');
 
 describe('calculate current stock level tests', () => {
     it('should return 8510 quantity for "LTV719449/39/39" SKU ', async () => {

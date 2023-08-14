@@ -1,14 +1,6 @@
 'use strict';
-const fs = require('fs').promises;
 const calculateStock = require('./calculateStock');
-async function parseFileData(fileName): Promise<Transaction[] | StockItem[]> {
-    try {
-        const data = await fs.readFile(`${__dirname}/../data/${fileName}`);
-        return JSON.parse(data);
-    } catch (err) {
-        throw err;
-    }
-}
+const parseFileData = require('../utils/parseFileData');
 
 module.exports = async function getStockLevel(sku: string): Promise<Result> {
     let stockLevels: number | null = null;
